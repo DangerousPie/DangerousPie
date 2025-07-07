@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Artsy portfolio website" />
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Your Name">
+  <title>Artistic Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <div id="logo">Artsy Name</div>
+    </div>
+    <div class="burger" id="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-text">
+        <h2>Exploring Form and Light</h2>
+        <p>Contemporary artistic work</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Artist statement, background, vision, etc.</p>
+    </section>
+
+    <section id="work">
+      <h2>Selected Works</h2>
+      <div class="gallery">
+        <a href="project1.html"><img src="img/work1.jpg" alt="Artwork 1" /></a>
+        <a href="project2.html"><img src="img/work2.jpg" alt="Artwork 2" /></a>
+        <a href="project3.html"><img src="img/work3.jpg" alt="Artwork 3" /></a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p><a href="impressum.html">Impressum</a> | <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

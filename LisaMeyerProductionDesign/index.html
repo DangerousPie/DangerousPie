@@ -1,78 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Artsy portfolio website" />
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="Your Name">
-  <title>Artistic Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+
+<head id="head-placeholder"></head>
+
 <body>
-  <header>
-    <div class="header-left">
-      <div id="logo">Artsy Name</div>
-    </div>
-    <div class="burger" id="burger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <nav>
-      <ul id="nav-menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="impressum.html">Impressum</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div id="header-placeholder"></div>
 
-  <main>
-    <section id="hero">
-      <div class="hero-text">
-        <h2>Exploring Form and Light</h2>
-        <p>Contemporary artistic work</p>
-      </div>
-    </section>
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <h2>Exploring Form and Light</h2>
+                <p>Contemporary artistic work</p>
+                <p>
+                    A journey through space, silence, and subtlety.<br />
+                    Observations transformed into visual poetry.<br />
+                    Intersections of the physical and the emotional.
+                </p>
+                <p>
+                    Selected projects reflecting ongoing explorations<br />
+                    in material, memory, and the passage of time.
+                </p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Born somewhere between a shadow and a soft breeze, I began creating art shortly
+                after misplacing a spoon and deciding it was a metaphor.
+            </p>
+            <p>
+                My work explores the space between thought and toast — the crackling silence of
+                unspoken subtitles, the geometry of dreams that smell faintly of printer ink.
+            </p>
+            <p>
+                Educated in the School of Accidental Balance and Lightly Roasted Theories,
+                I believe every medium has a spirit, except maybe PowerPoint.
+            </p>
+            <p>
+                In my spare time, I train clouds to dance in sync and archive emotional shadows
+                cast by forgotten shopping lists.
+            </p>
+            <p>
+                This is not a statement. It’s a soft launch into organized confusion.
+            </p>
+        </section>
 
-    <section id="about">
-      <h2>About</h2>
-      <p>Artist statement, background, vision, etc.</p>
-    </section>
+        <section id="work">
+            <h2>Selected Works</h2>
+            <div class="gallery">
+                <a href="project1.html"><img src="img/work1.jpg" alt="Artwork 1" /></a>
+                <a href="project2.html"><img src="img/work2.jpg" alt="Artwork 2" /></a>
+                <a href="project3.html"><img src="img/work3.jpg" alt="Artwork 3" /></a>
+            </div>
+        </section>
+    </main>
 
-    <section id="work">
-      <h2>Selected Works</h2>
-      <div class="gallery">
-        <a href="project1.html"><img src="img/work1.jpg" alt="Artwork 1" /></a>
-        <a href="project2.html"><img src="img/work2.jpg" alt="Artwork 2" /></a>
-        <a href="project3.html"><img src="img/work3.jpg" alt="Artwork 3" /></a>
-      </div>
-    </section>
+    <div id="footer-placeholder"></div>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <form id="contactForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-    <p><a href="impressum.html">Impressum</a> | <a href="privacy.html">Privacy Policy</a></p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="load-shared.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

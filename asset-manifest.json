@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DangerousPie/meddev/static/css/main.3b167d1e.css",
+    "main.js": "/DangerousPie/meddev/static/js/main.db58fdcb.js",
+    "static/js/453.bdaf7c9d.chunk.js": "/DangerousPie/meddev/static/js/453.bdaf7c9d.chunk.js",
+    "index.html": "/DangerousPie/meddev/index.html",
+    "main.3b167d1e.css.map": "/DangerousPie/meddev/static/css/main.3b167d1e.css.map",
+    "main.db58fdcb.js.map": "/DangerousPie/meddev/static/js/main.db58fdcb.js.map",
+    "453.bdaf7c9d.chunk.js.map": "/DangerousPie/meddev/static/js/453.bdaf7c9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b167d1e.css",
+    "static/js/main.db58fdcb.js"
+  ]
+}
